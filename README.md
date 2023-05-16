@@ -16,7 +16,8 @@ This is a basic server created to practice deploying a Node.js server used as a 
 
 ### Collaborators
 
-- Ryan Gallaway
+- Ryan Gallaway - I have permission to use his demo code.
+- 401d53 and 401d10 - Ryan Gallaway asked us questions, and we all contributed.
 
 ### Setup
 
