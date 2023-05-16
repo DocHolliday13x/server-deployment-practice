@@ -10,9 +10,9 @@ This is a basic server created to practice deploying a Node.js server used as a 
 
 ### Links and Resources
 
-- [GitHub Actions ci/cd](https://github.com/rkgallaway/server-deployment-practice-d51/actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [GitHub Actions ci/cd](https://github.com/DocHolliday13x/server-deployment-practice/actions)
+- [back-end server url](https://server-deployment-practice-dev-67fq.onrender.com/)
+- [front-end application](https://server-deployment-practice-main-xnav.onrender.com/)
 
 ### Collaborators
 
