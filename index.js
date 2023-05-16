@@ -1,30 +1,9 @@
 `use strict`;
 
 require('dotenv').config();
-const express = require('express');
-const cors = require('cors');
-
-// Create Express Singleton - a single instance by design
-const app = express();
+const { start } = require('./src/server');
 const PORT = process.env.PORT;
 
-// Middleware - a function that runs before the route handler
-app.use(cors());
-app.use(express.json());
+start(PORT);
 
-app.get('/', (req, res, next) => {
-  res.status(200).send('Proof of Life');
-});
-
-app.get('/success', (req, res, next) => {
-  res.status(200).send('Success');
-});
-
-app.get('/bad', (req, res, next) => {
-  res.status(500).send('Bad Request');
-});
-
-app.listen(PORT, () => console.log('Server up on', PORT));
-
-    
 
