@@ -16,7 +16,15 @@ app.get('/', (req, res, next) => {
   res.status(200).send('Proof of Life');
 });
 
+app.get('/success', (req, res, next) => {
+  res.status(200).send('Success');
+});
+
+app.get('/bad', (req, res, next) => {
+  res.status(500).send('Bad Request');
+});
+
 app.listen(PORT, () => console.log('Server up on', PORT));
 
-
+    
 
